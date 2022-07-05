@@ -10,3 +10,9 @@ function initColorPicker() {
         blue: document.getElementById("blue")
     };
 }
+
+function setColorPickerEventListeners(colorbox, rgb) {
+    rgb.red.addEventListener('change'.() => {
+    console.log("Red value");
+    })
+    }
